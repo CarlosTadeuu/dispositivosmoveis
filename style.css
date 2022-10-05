@@ -1,7 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+  	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 :root{
     font-size: 62.5% ;
@@ -16,6 +20,7 @@ header{
     height: 32rem;
     background-color: #1E2C2E;
     padding-right: 13rem;
+    min-width: 120rem;
 }
 #logo{
     display: flex;
@@ -35,46 +40,37 @@ header{
     display: flex;
     justify-content: space-between;
     padding-left: 12rem;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 #temasheader{
     display: flex;
+    justify-content: space-between;
     gap: 2rem;
     padding: 0 0 0 18rem;
 }
 #temasheader div{
     text-align: center;
     border-bottom: solid 10px;
+    min-height: 10rem;
+    width: 23rem;
 }
 #boatos{
     color: #D3E6BA;
-    min-height: 10rem;
-    width: 23rem;
 }
 #comercioEletronico{
     color: #BAE1E6;
-    min-height: 10rem;
-    width: 23rem;
 }
 #internetBanking{
     color: #C8BAE6;
-    min-height: 10rem;
-    width: 23rem;
 }
 #redesSociais{
     color: #E6BABA;
-    min-height: 10rem;
-    width: 23rem;
 }
 #dispositivosMoveis{
     color: #BAC6E6;
-    min-height: 10rem;
-    width: 23rem;
 
 }
 #redes{
     color: #E6CABA;
-    min-height: 10rem;
-    width: 23rem;
 
 }
